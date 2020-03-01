@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="#FFF"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtTitulo_"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Conversor de voz a texto y viceversa"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_weight="5"
+                    android:layout_height="70dp"
+                    android:src="@drawable/helloworldlogo"/>
+
+
+            </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:weightSum="5"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="19dp"
+              android:layout_marginTop="15dp"
+              android:layout_marginBottom="15dp"
+              android:layout_weight="1"
+              android:textStyle="bold"
+              android:gravity="left"
+
+              android:textColor="#FFF"
+
+              android:id="@+id/txtSubTitulo_"
+              android:text="Subtitulo"/>
+
+
+          <VideoView
+              android:layout_gravity="center"
+              android:layout_width="250dp"
+              android:layout_height="450dp"
+              android:id="@+id/video_tuto"
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="18dp"
+              android:layout_marginTop="15dp"
+              android:layout_weight="1"
+              android:textStyle="bold"
+              android:gravity="center"
+              android:textColor="#FFF"
+              android:id="@+id/txtDescripcion_"
+              android:text="Descripción"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:layout_marginTop="15dp"
+                android:id="@+id/btn_tuto_sig"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:layout_height="match_parent"
+                android:text="Siguiente   1/9"   />
+      </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_duolingo"
+            >
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_weight="1"
+                android:layout_height="200dp"
+                android:src="@drawable/helloworldlogo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/boton3"
+            android:layout_height="match_parent"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFF"
+
+                android:text="¡Hola!\nBienvenido a Hello World"/>
+
+
+            <TextView
+                android:id="@+id/text"
+                android:text="La siguiente aplicación ha sido desarrollada pensado en ayudar a las personas con discapacidad.
+A tu disposición tienes herramientas tecnológicas creadas especialmente para ayudarte.
+
+
+
+El equipo de desarrollo espero que te sentan muy útiles, podamos ayudarte a crecer y a que hagas muchas cosas.                                                  "
+                android:layout_width="match_parent"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+
+                />
+
+            <Button
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/button"
+                android:id="@+id/btn_entendido_bienvenida"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Entendido" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
