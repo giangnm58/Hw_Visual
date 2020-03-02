@@ -172,7 +172,7 @@ def train():
         train_writer.add_summary(summary, i)
   train_writer.close()
   test_writer.close()
-
+  sess.close()
 
 def main(_):
   if tf.gfile.Exists(FLAGS.summaries_dir):
